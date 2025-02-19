@@ -5,7 +5,7 @@ description: Definición y usos de un brazo robótico
 
 Los brazos robóticos son dispositivos mecánicos diseñados para imitar la funcionalidad de un brazo humano. Se utilizan en diversas aplicaciones, desde la automatización industrial hasta la educación y la robótica de servicio.  
 
-![Brazo Robótico](/src/assets/Brazo.Robo.webp)
+![Brazo Robótico](../../../assets/brazo-robotico.jpg)
 
 Comprender qué es un brazo robótico y cómo funciona es fundamental antes de comenzar a ensamblarlo y programarlo.
 
