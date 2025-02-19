@@ -5,7 +5,7 @@ description: A reference page in my new Starlight docs site.
 
 ## Uso del Controlador PCA9685 para Servomotores
 
-![Brazo Robótico](/public/4119large.jpg)
+![Brazo Robótico](/src/assets/4119large.jpg)
 
 El **PCA9685** fue diseñado para controlar LEDs por **PWM**, pero también se usa para **controlar servos**, ya que estos también funcionan con señales PWM. Su uso es muy común en robótica y automatización.
 
@@ -13,7 +13,7 @@ El **Módulo PCA9685** tiene pines en el orden correcto para conectar servos dir
 
 Además, podemos **establecer la dirección I2C** soldando los puentes **A0-A5**, lo que permite usar varios módulos PCA9685 en el mismo bus I2C.
 
-![Brazo Robótico](/public/controlador.jpg)
+![Brazo Robótico](/src/assets/controlador.jpg)
 ---
 
 ## 🔹 Características del PCA9685
@@ -25,7 +25,7 @@ Además, podemos **establecer la dirección I2C** soldando los puentes **A0-A5**
 
 
 La salida PWM que envía el PCA9685 es de la siguiente forma:
-![Brazo Robótico](/public/Pulso%20PWM%20PCA9685.jpg)
+![Brazo Robótico](/src/assets/Pulso%20PWM%20PCA9685.jpg)
 
 Básicamente lo se tiene que establecer es la frecuencia de la señal PWM, frecuencia que será la misma para las 16 salidas PWM. Para establecer el ciclo de trabajo (Duty) tenemos que manipular el flanco de subida (Up) y flanco de bajada (Down), esto se configura individualmente para cada salida PWM, La resolución del PWM es de 12 bits (de 0 a 4095).
 
@@ -75,7 +75,7 @@ Si la fuente no es estable o genera **ruido eléctrico**, se recomienda **soldar
 
 ## 🔹 Conexión Gráfica
 
-![Brazo Robótico](/public/4119large.jpg)
+![Brazo Robótico](/src/assets/4119large.jpg)
 
 Las conexiones entre **Arduino, el PCA9685 y la fuente externa** son las siguientes:
 

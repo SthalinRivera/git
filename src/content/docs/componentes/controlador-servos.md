@@ -7,7 +7,7 @@ description: Guía completa sobre el controlador de servos PCA9685 y su integrac
 
 El **PCA9685** es un módulo controlador de servomotores que permite manejar hasta **16 servos** utilizando solo **dos pines I2C** de Arduino. Es ideal para proyectos que requieren múltiples grados de libertad, como un **brazo robótico**.
 
-![Brazo Robótico](/public/partes%20de%20controlador.jpg)
+![Brazo Robótico](/src/assets/partes-de-controlador.jpg)
 
 
 ## 🔹 Características del PCA9685
@@ -22,7 +22,7 @@ El **PCA9685** es un módulo controlador de servomotores que permite manejar has
 ## 🛠️ Conexión del PCA9685 con Arduino
 
 
-![Brazo Robótico](/public/conexcion-arduino.jpg)
+![Brazo Robótico](/src/assets/conexcion-arduino.jpg)
 
 Para conectar el **PCA9685** con Arduino, sigue esta tabla:
 

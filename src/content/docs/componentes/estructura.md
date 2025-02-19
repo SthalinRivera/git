@@ -9,11 +9,11 @@ La **estructura del brazo robótico** está compuesta por varios segmentos unido
 
 ---
 
-![Brazo Robótico](/public/partes.webp)
+![Brazo Robótico](/src/assets/partes.webp)
 
 ## 🔹 Componentes Principales
 
-![Brazo Robótico](/public/componentes.png)
+![Brazo Robótico](/src/assets/componentes.png)
 
 1. **Base** 🏗️  
    - Sujeta el brazo y permite su rotación.  
