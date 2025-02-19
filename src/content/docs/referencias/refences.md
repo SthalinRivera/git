@@ -20,7 +20,7 @@ A continuación, se listan las principales fuentes utilizadas para la elaboraci�
 ---
 
 ✍ **Realizado por:**  
-**ING. ADLER SALIN RIVERA CENTENO**  
+**ING. ADLER STALIN RIVERA CENTENO**  
 **Laboratorio de IoT e Inteligencia Artificial**  
 **Escuela Profesional de Ingeniería de Sistemas**  
 
