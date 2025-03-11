@@ -1,38 +1,87 @@
 ---
-title: Aplicaciones y Usos de un Brazo Robótico
-description: Descubre en qué áreas se utilizan los brazos robóticos y su impacto en diferentes industrias.
+title: Guía para Deploy en Vercel
+description: Guía para Deploy en Vercel
 ---
 
-Los brazos robóticos son herramientas versátiles que se utilizan en una amplia variedad de sectores. Su precisión, velocidad y capacidad para automatizar tareas repetitivas los hacen esenciales en la industria, la educación, la medicina y más.
 
-## Principales Aplicaciones
+## 1️⃣ Crear una Cuenta en Vercel
+🔹 Accede a [https://vercel.com/](https://vercel.com/) y regístrate con GitHub, GitLab o Bitbucket.
 
-### 1. Industria y Manufactura
-Los brazos robóticos han revolucionado la producción en fábricas y plantas industriales. Se utilizan para:
-- **Soldadura automatizada:** Ensamblaje de piezas metálicas con alta precisión.
-- **Manipulación de materiales:** Transporte y colocación de componentes en cadenas de producción.
-- **Montaje de productos electrónicos:** Como en la fabricación de teléfonos y computadoras.
+---
 
-### 2. Educación e Investigación
-Son herramientas fundamentales para el aprendizaje y la innovación:
-- **Enseñanza de robótica y programación:** Uso en universidades y laboratorios de ingeniería.
-- **Investigación en inteligencia artificial:** Desarrollo de algoritmos de control y visión computarizada.
+## 2️⃣ Instalar Vercel CLI
+Para administrar proyectos desde la terminal, instala Vercel CLI:
+```sh
+npm install -g vercel
+```
+Verifica la instalación con:
+```sh
+vercel --version
+```
 
-### 3. Medicina y Cirugía
-Los robots quirúrgicos han permitido realizar procedimientos de alta precisión:
-- **Cirugía asistida por robots:** Como el sistema Da Vinci para operaciones mínimamente invasivas.
-- **Rehabilitación física:** Prótesis y dispositivos robóticos para asistencia a pacientes.
+---
 
-### 4. Exploración Espacial y Submarina
-Los brazos robóticos permiten operar en entornos extremos donde los humanos no pueden llegar:
-- **Exploración espacial:** Uso en sondas y estaciones espaciales como el Canadarm de la NASA.
-- **Investigación submarina:** Vehículos operados remotamente (ROV) para exploraciones oceánicas.
+## 3️⃣ Configurar un Proyecto con Vercel
 
-### 5. Aplicaciones en el Hogar y Servicio
-Cada vez más, los robots se integran en la vida cotidiana:
-- **Asistencia a personas con discapacidad:** Brazos robóticos para mejorar la movilidad.
-- **Automatización doméstica:** Robots de cocina, impresión 3D y más.
+### A) **Conectar un Repositorio desde la Web**
+1️⃣ En Vercel, haz clic en **New Project**.  
+2️⃣ Conéctalo con tu repositorio en **GitHub**, **GitLab** o **Bitbucket**.  
+3️⃣ Configura los ajustes y haz clic en **Deploy**.  
 
-## Lecturas adicionales
-- Consulta [cómo programar un brazo robótico con Arduino](https://example.com).
-- Aprende sobre [inteligencia artificial en robótica](https://example.com).
+### B) **Deploy Manual desde la Terminal**
+1️⃣ Ve a tu carpeta del proyecto:
+```sh
+cd mi-proyecto
+```
+2️⃣ Ejecuta:
+```sh
+vercel
+```
+3️⃣ Responde las preguntas del asistente (puedes aceptar los valores predeterminados).  
+4️⃣ Una vez completado, Vercel generará una URL de despliegue. 🎉
+
+---
+
+## 4️⃣ Configurar Variables de Entorno
+Si tu proyecto necesita variables de entorno:
+```sh
+vercel env add NOMBRE_VAR valor
+```
+O crea un archivo `.env.local` y agrégalo a **Vercel**:
+```sh
+vercel env pull
+```
+
+---
+
+## 5️⃣ Desplegar Cambios Nuevos
+Cada vez que hagas cambios en el código, puedes hacer:
+```sh
+git add .
+git commit -m "Actualización"
+git push origin main
+```
+Si tu repositorio está conectado a Vercel, se desplegará automáticamente.  
+Para desplegar manualmente:
+```sh
+vercel --prod
+```
+
+---
+
+## 6️⃣ Comandos Útiles de Vercel CLI
+| **Comando** | **Descripción** |
+|------------|-----------------|
+| `vercel` | Despliega el proyecto interactivo. |
+| `vercel --prod` | Despliega en producción. |
+| `vercel env add <clave> <valor>` | Agrega una variable de entorno. |
+| `vercel env pull` | Descarga variables de entorno de Vercel. |
+| `vercel logs <deployment>` | Muestra logs del despliegue. |
+| `vercel ls` | Lista proyectos en la cuenta. |
+| `vercel rm <nombre>` | Elimina un proyecto de Vercel. |
+
+---
+
+## 🚀 ¡Listo! Tu Proyecto Está en Producción
+Puedes acceder a la URL que te proporciona Vercel.  
+Para más detalles, revisa la [documentación oficial](https://vercel.com/docs).
