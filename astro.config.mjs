@@ -19,6 +19,7 @@ export default defineConfig({
 						{ label: 'Guía para Deploy en Vercel', slug: 'introduccion/usos' },
 						{ label: 'Guía para Desplegar en GitHub Pages', slug: 'introduccion/github-pages' },
 						{ label: 'Alternativas Gratuitas a Vercel para Despliegue de Proyectos', slug: 'introduccion/alternativas-deploy' },
+						{ label: 'Despliegue de Aplicaciones Laravel en Servicios de Hosting Gratuitos', slug: 'introduccion/deploy-laravel' },
 					],
 				},
 

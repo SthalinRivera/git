@@ -3,7 +3,7 @@ title:  Guía Básica de Git
 description:  Guía Básica de Git
 ---
 
-# 📌 Guía Básica de Git
+
 
 ## 1️⃣ Instalación de Git  
 🔹 Descarga e instala Git según tu sistema operativo:  

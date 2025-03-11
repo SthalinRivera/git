@@ -3,7 +3,6 @@ title: Guía para Desplegar en GitHub Pages
 description: Guía para Desplegar en GitHub Pages
 ---
 
-# 🚀 Guía para Desplegar en GitHub Pages
 
 ## 1️⃣ Requisitos Previos
 🔹 Tener un repositorio en GitHub.  
